@@ -7,14 +7,16 @@ const TransactionsInfo = () => {
     <div className='bg-white rounded-[10px] px-[10px] py-[8px] shadow-md'>
 
       <div className='flex justify-between pb-[10px]'>
-        <input placeholder='Search by Order ID' className='w-[250px] border-[1px] text-[#999999] border-[#D9D9D9] rounded-[5px] text-center' />
+        <div className='bg-[#FFFFFF] py-[9px] px-[16px] flex items-center w-[250px] border-[1px] border-cyan-500 rounded-[4px]'>
+          <img src='./images/search.svg' className='h-[16px] w-[16px] mr-[9px]' />
+          <input type="text" placeholder="Search order by ID..." className='bg-[#FFFFFF] w-full h-full outline-none  border-none' />
+        </div>
         <div className='mr-[20px] flex'>
-          <div className='flex mx-4 border-[1px] w-[90px] justify-center h-[38px] border-[#D9D9D9] p-[6px] rounded-[4px] '>
+          <div className='flex mx-4 text-[#4D4D4D] cursor-pointer border-[1px] w-[90px] justify-center h-[38px] border-[#D9D9D9] p-[6px] rounded-[4px] '>
             <div>Sort</div>
-            <img src='./images/leftNavImages/home.png' className='w-[20px] h-[20px] mx-2' />
+            <img src='./images/sort.svg' className='w-[20px] h-[20px] mx-2' />
           </div>
-          <img src='./images/leftNavImages/home.png' className='w-[40px] border-[1px] justify-center h-[38px] border-[#D9D9D9] p-[6px] rounded-[4px] ' />
-
+          <img src='./images/download.svg' className='w-[40px] border-[1px] justify-center h-[38px] border-[#D9D9D9] p-[6px] rounded-[4px] cursor-pointer' />
         </div>
       </div>
       <div className='h-[500px]'>
