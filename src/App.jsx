@@ -5,7 +5,7 @@ import PaymentOverview from "./page/PaymentOverview.jsx";
 
 export default function App() {
   return (
-    <div className="h-screen w-screen bg-cyan-100">
+    <div className="h-screen w-screen bg-cyan-50">
       <LeftNav />
       <Header />
       <PaymentOverview />
