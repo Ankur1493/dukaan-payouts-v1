@@ -34,7 +34,7 @@ const TransactionsInfo = () => {
               <tr key={index} className='border-b-[#E6E6E6] border-[0.6px]'>
                 <td className='text-blue-600 text-left pl-[20px]' >{trans.orderId}</td>
                 <td className='text-left pl-[20px]'>{trans.orderDate}</td>
-                <td>{trans.orderAmount}</td>
+                <td className='pl-[40px]'>{trans.orderAmount}</td>
                 <td className='text-right pr-[20px]' >{trans.fees}</td>
               </tr>
             ))}
