@@ -19,7 +19,7 @@ const TransactionsInfo = () => {
           <img src='./images/download.svg' className='w-[40px] border-[1px] justify-center h-[38px] border-[#D9D9D9] p-[6px] rounded-[4px] cursor-pointer' />
         </div>
       </div>
-      <div className='h-[500px]'>
+      <div className='lg:h-[500px] h-full'>
         <table className='w-full h-[480px] border-collapse border-none'>
           <thead>
             <tr className='bg-[#F2F2F2] p-[10px] border-none'>
@@ -31,7 +31,7 @@ const TransactionsInfo = () => {
           </thead>
           <tbody className='text-center border-none'>
             {transactionsConsts.map((trans, index) => (
-              <tr key={index} className='border-b-cyan-100 border-[0.6px]'>
+              <tr key={index} className='border-b-[#E6E6E6] border-[0.6px]'>
                 <td className='text-blue-600' >{trans.orderId}</td>
                 <td>{trans.orderDate}</td>
                 <td>{trans.orderAmount}</td>
@@ -42,7 +42,7 @@ const TransactionsInfo = () => {
         </table>
       </div>
       <div className='flex justify-center items-center w-full'>
-        <Pagination totalPages={8} />
+        <Pagination totalPages={10} />
       </div>
     </div>
   );
