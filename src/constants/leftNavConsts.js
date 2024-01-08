@@ -8,7 +8,6 @@ export const leftNavTabs = [
   { tabName: "Marketing", tabImage: "marketing" },
   { tabName: "Analytics", tabImage: "analytics" },
   { tabName: "Payments", tabImage: "payments" },
-  { tabName: "Tools", tabImage: "tools" },
   { tabName: "Discounts", tabImage: "discounts" },
   { tabName: "Audience", tabImage: "audience" },
   { tabName: "Appearance", tabImage: "appearance" },
