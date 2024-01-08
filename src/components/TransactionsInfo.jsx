@@ -23,26 +23,26 @@ const TransactionsInfo = () => {
         <table className='w-full h-[480px] border-collapse border-none'>
           <thead>
             <tr className='bg-[#F2F2F2] p-[10px] border-none'>
-              <th>Order ID</th>
-              <th>Order Date</th>
+              <th className='text-left pl-[20px]'>Order ID</th>
+              <th className='text-left pl-[20px]'>Order Date</th>
               <th>Order Amount</th>
-              <th>Fees</th>
+              <th className='text-right pr-[20px]'>Fees</th>
             </tr>
           </thead>
           <tbody className='text-center border-none'>
             {transactionsConsts.map((trans, index) => (
               <tr key={index} className='border-b-[#E6E6E6] border-[0.6px]'>
-                <td className='text-blue-600' >{trans.orderId}</td>
-                <td>{trans.orderDate}</td>
+                <td className='text-blue-600 text-left pl-[20px]' >{trans.orderId}</td>
+                <td className='text-left pl-[20px]'>{trans.orderDate}</td>
                 <td>{trans.orderAmount}</td>
-                <td>{trans.fees}</td>
+                <td className='text-right pr-[20px]' >{trans.fees}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
       <div className='flex justify-center items-center w-full'>
-        <Pagination totalPages={10} />
+        <Pagination totalPages={6} />
       </div>
     </div>
   );

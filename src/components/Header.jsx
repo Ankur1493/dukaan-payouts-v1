@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="w-[calc(100vw-60px)] lg:w-[calc(100vw-224px)] bg-white flex items-center lg:justify-between justify-around h-[50px] ml-[60px] lg:ml-[224px] px-[5px] lg:pl-[35px] lg:pr-[45px] py-[32px]">
       <div className='flex'>
-        <div className='text-[20px] font-normal'>Payouts</div>
+        <div className='text-[20px] font-normal'>Payments</div>
         <div className='text-[14px] hidden lg:flex font-thin ml-[20px] justify-center cursor-pointer items-center'>
           <img src='./images/help.svg' className='h-[14px] w-[14px] mr-[5px]' />
           How it Works
