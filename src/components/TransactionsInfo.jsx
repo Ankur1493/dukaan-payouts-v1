@@ -19,8 +19,8 @@ const TransactionsInfo = () => {
           <img src='./images/download.svg' className='w-[40px] border-[1px] justify-center h-[38px] border-[#D9D9D9] p-[6px] rounded-[4px] cursor-pointer' />
         </div>
       </div>
-      <div className='lg:h-[500px] h-full'>
-        <table className='w-full h-[480px] border-collapse border-none'>
+      <div className='lg:h-[500px] h-full overflow-x-auto'>
+        <table className='md:w-full w-[500px]  h-[480px] border-collapse  border-none'>
           <thead>
             <tr className='bg-[#F2F2F2] p-[10px] border-none'>
               <th className='text-left pl-[20px]'>Order ID</th>

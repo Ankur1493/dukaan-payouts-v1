@@ -26,9 +26,9 @@ const LeftNav = () => {
           ))
         }
       </div >
-      <div className='hidden lg:flex items-center justify-around px-[12px] py-[6px] w-full rounded-[4px] bg-white bg-opacity-10'>
+      <div className='flex items-center justify-around px-[12px] py-[6px] w-full rounded-[4px] bg-white bg-opacity-10'>
         <img src='./images/leftNavImages/wallet.svg' />
-        <div className='text-[13px] leading-[16px]'>
+        <div className=' hidden lg:block text-[13px] leading-[16px]'>
           <div>Available Credits</div>
           <div>222.10</div>
         </div>
