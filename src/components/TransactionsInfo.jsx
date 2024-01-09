@@ -20,7 +20,7 @@ const TransactionsInfo = () => {
         </div>
       </div>
       <div className='lg:h-[500px] h-full overflow-x-auto'>
-        <table className='md:w-full w-[500px]  h-[480px] border-collapse  border-none'>
+        <table className='sm:w-full w-[500px]  h-[480px] border-collapse  border-none'>
           <thead>
             <tr className='bg-[#F2F2F2] p-[10px] border-none'>
               <th className='text-left pl-[20px]'>Order ID</th>
